@@ -1,0 +1,72 @@
+/*
+------
+Theme Name: wp_custom_theme-two
+Text Domain: wp_custom_theme-two
+Version: 1.0
+Description: Jacob's Wordpress Template Theme, written in PHP
+Tags: PHP, Template, Wordpress, Theme
+Author: Jacob Spencer Addis
+Author URI: js-addis.com
+------
+*/
+
+/** ------ HTML, BODY START ------ **/
+html, body {
+  margin:0;
+  padding:0;
+}
+/** ------ HTML, BODY END ------ **/
+/** ------ HEADER START ------ **/
+header {
+  margin:0;
+  padding:0;
+  width:100%;
+  display:inline-block;
+  
+}
+/** ------ HEADER END ------ **/
+/** ------ NAV MENU START ------ **/
+.menu {
+  padding: 10px;
+  margin: 0;
+  width: fit-content;
+
+  float:right;
+  
+}
+.menu ul {
+  margin: 0;
+  padding:10px;
+
+  
+}
+.page_item {
+  padding:5px;
+  margin:0;
+
+  
+  display: inline-block;
+}
+.page_item a {
+  color: black;
+}
+/** ------ NAV MENU END ------ **/
+/** ------ POST TEMPLATE START ------ **/
+.post_container {
+  width:100%;
+  background-color: aqua;
+}
+.post_title {
+  width:fit-content;
+  margin:auto;
+  background-color: blue;
+}
+.post_content {
+  width: 500px;
+  
+  margin:auto;
+  padding:10px;
+  background-color: brown;
+}
+
+/** ------ POST TEMPLATE END ------ **/
